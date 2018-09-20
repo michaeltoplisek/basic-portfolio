@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,30 +8,50 @@
     <title>Portfolio Gallery</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-    
+
     <header>
-        <h1>Michael Toplisek</h1>
-        <h3>About |</h3>
-        <h3>Portfolio |</h3>
-        <h3>Contact</h3>
+        <h1 class="headtit">Michael Toplisek</h1>
+        <div class="nav">
+                <h3><a href="portfolio.html">Portfolio</a> |</h3>
+                <h3> <a href="index.html">About</a> |</h3>
+                <h3><a href="contact.html">Contact</a></h3>
+        </div>
     </header>
 
-    <main>
-        <h2>Portfolio</h2>
-        <img src="https://via.placeholder.com/200x200x" alt="image representing piece of my portfolio">
-        <img src="https://via.placeholder.com/200x200x" alt="image representing piece of my portfolio">
-        <img src="https://via.placeholder.com/200x200x" alt="image representing piece of my portfolio">
-        <img src="https://via.placeholder.com/200x200x" alt="image representing piece of my portfolio">
-        <img src="https://via.placeholder.com/200x200x" alt="image representing piece of my portfolio">
+    <main class="wrapper portwrap">
+        <h1 class="pagetit">Portfolio</h1>
+
+        <hr />
+
+        <div class="set1">
+        <img class="imgsize leftimg" src="/Users/michaeltoplisek/bc/homework/02-hwk/basic-portfolio/assets/images/pexels-photo-595804.jpeg" alt="image representing piece of my portfolio">
+        <img class="portimg1 imgsize" src="/Users/michaeltoplisek/bc/homework/02-hwk/basic-portfolio/assets/images/pexels-photo-414859.jpeg">
+            <p class="portlabel hang">Hangman</p>
+            <p class="portlabel rpg">RPG Game</p>
+        </div>
+
+        <div id="imgspace" class="set2">
+
+        <img class="imgsize imgsize leftimg" src="/Users/michaeltoplisek/bc/homework/02-hwk/basic-portfolio/assets/images/pexels-photo-51415.jpeg">
+        <img class="portimg2 imgsize" src="/Users/michaeltoplisek/bc/homework/02-hwk/basic-portfolio/assets/images/pexels-photo-96381.jpeg">
+            <p class="portlabel triv">Trivia Game</p>
+            <p class="portlabel rut">Rutgers Info Widget</p>
+        </div>
+        <div class="set3">
+        <img class="portimg3 imgsize" src="/Users/michaeltoplisek/bc/homework/02-hwk/basic-portfolio/assets/images/pexels-photo-373543 (1).jpeg">
+        <p class="portlabel rps">Rock Paper Scissors</p>
+        </div>
     </main>
 
     <footer></footer>
-               
+
 
 
 
 
 
 </body>
+
 </html>
